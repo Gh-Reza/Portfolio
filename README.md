@@ -126,7 +126,7 @@ StyleLint run:
 To run the project, execute the following command:
 
 ```sh
-  cd HelloMicroverse
+  cd Portfolio-mobile-version
   index.html
 ```
 
