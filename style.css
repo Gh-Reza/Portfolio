@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
 }
 
 html {
@@ -22,8 +23,22 @@ body {
   width: 87.2%;
 }
 
+.gen-padding {
+  padding: 12rem  0;
+}
+
+.primary-font {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  letter-spacing: 0.37px;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 /* ========== Header start ============ */
@@ -45,18 +60,14 @@ body {
 }
 
 .section-headline {
-  padding: 12rem  0;
   background: #1c1a19 url(img/illustration.png);
   background-repeat: no-repeat;
   background-position: 100% 120%;
 }
 
 .headline-primary {
-  font-family: 'Crete Round', serif;
-  font-weight: 400;
   font-size: 5.6rem;
   line-height: 6.4rem;
-  letter-spacing: 0.37px;
   color: #ff6b00;
 }
 
@@ -82,4 +93,100 @@ body {
   gap: 2.4rem;
   margin-top: 1.8rem;
   padding: 0 1rem;
+}
+
+/* =========== Header end =========== */
+
+.work-container {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr repeat(2fr, 7);
+  gap: 2.4rem;
+}
+
+.work-header-box {
+  font-size: 4rem;
+  columns: #1c1a19;
+  padding-bottom: 3.2rem;
+  border-bottom: solid 1px #212121;
+}
+
+.multi-post-card {
+  margin-top: 5.6rem;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: flex-start;
+}
+
+.multi-post-primary {
+  font-size: 3.2rem;
+}
+
+.multi-post-description {
+  font-family: Inter, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #091e42;
+}
+
+.tags-box {
+  gap: 1.2rem;
+  margin: 1.2rem 0;
+}
+
+.tags-box a {
+  box-sizing: unset;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #091e42;
+  height: 40px;
+  width: 55px;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid #8993a4;
+}
+
+.action-btn {
+  padding: 1.2rem;
+  background-color: #ff6b00;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.prof-art-card {
+  flex-direction: column;
+  gap: 1.2rem;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("img/carbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prof-art-primary {
+  margin: auto;
+  margin-top: 7.2rem;
+  font-size: 3.2rem;
+  color: #fff;
+  width: 87.2%;
+}
+
+.prof-art-description {
+  margin: auto;
+  width: 87.2%;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+
+.prof-art-card .tags-box {
+  margin: 1.2rem auto;
+  width: 87.2%;
+}
+
+.prof-art-card .tags-box a {
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
 }
