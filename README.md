@@ -60,6 +60,8 @@
 
 - **[Toolbar]**
 - **[Header]**
+- **[Recent Works]**
+- **[About me]**
 
 In this project best coding practices is use
 
@@ -160,9 +162,9 @@ Your working browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Work section]**
-- [ ] **[About Myself]**
 - [ ] **[Contact form]**
+- [ ] **[Desktop version]**
+- [ ] **[Resposive version]**
 
 ## 🤝 Contributing <a name="contributing"></a>
 
