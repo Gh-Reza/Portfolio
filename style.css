@@ -99,7 +99,6 @@ body {
 
 .work-container {
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr repeat(2fr, 7);
   gap: 2.4rem;
 }
 
@@ -142,7 +141,6 @@ body {
   height: 40px;
   width: 55px;
   padding: 10px 12px 10px 12px;
-  border: 1px solid #8993a4;
 }
 
 .action-btn {
@@ -153,6 +151,7 @@ body {
   font-weight: 700;
   color: #fff;
   text-align: center;
+  margin-top: 1.2rem;
 }
 
 .prof-art-card {
@@ -176,7 +175,6 @@ body {
   width: 87.2%;
   font-family: Inter, sans-serif;
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   color: #fff;
 }
@@ -189,4 +187,65 @@ body {
 .prof-art-card .tags-box a {
   background: rgba(255, 255, 255, 0.24);
   color: #fff;
+}
+
+/* =========== Work section end ================ */
+
+/* =========== About section start =============== */
+
+.section-about-me {
+  background: #1c1a19 url(img/illustration2.png);
+  background-repeat: no-repeat;
+  background-position: 100% 34rem;
+  color: #f4f5f7;
+  padding-bottom: 8.8rem;
+}
+
+.about-me-container {
+  grid-template-columns: 1fr;
+}
+
+.about-me-summary-box {
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: flex-start;
+  border-bottom: 1px #fff solid;
+  padding-bottom: 20rem;
+}
+
+.about-me-primary {
+  font-size: 7.2rem;
+  color: #ff6b00;
+  line-height: 8.8rem;
+  letter-spacing: 0.37px;
+}
+
+.about-me-description {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.skills-box {
+  flex-direction: column;
+  gap: 3.2rem;
+  padding-top: 13.6rem;
+  align-items: center;
+}
+
+.skills-title-box {
+  gap: 1.2rem;
+  align-items: center;
+  padding-right: 3.6rem;
+}
+
+.skills-title-box h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+}
+
+.skill-item {
+  font-family: "Inter", sans-serif;
+  font-size: 2.2rem;
 }
