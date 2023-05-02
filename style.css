@@ -154,6 +154,17 @@ body {
   margin-top: 1.2rem;
 }
 
+.action-btn:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.action-btn:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
 .prof-art-card {
   flex-direction: column;
   gap: 1.2rem;
@@ -248,4 +259,54 @@ body {
 .skill-item {
   font-family: "Inter", sans-serif;
   font-size: 2.2rem;
+}
+
+/* ============= contact form start ============= */
+
+.section-contact-form {
+  padding: 7rem 0;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.contact-form-container {
+  align-items: center;
+  text-align: center;
+}
+
+.contact-form-primary {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #172b4d;
+  font-size: 3.2rem;
+  line-height: 44px;
+}
+
+.contact-form {
+  padding-top: 6rem;
+}
+
+.form-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 1.2rem;
+  margin-top: 2.4rem;
+}
+
+.form-input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  color: #979493;
+}
+
+textarea.form-input {
+  background-color: #fbf8f7;
+}
+
+textarea.form-input::placeholder {
+  font-style: italic;
+}
+
+.submit-btn {
+  border: none;
 }
