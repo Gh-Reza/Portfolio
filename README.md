@@ -62,6 +62,7 @@
 - **[Header]**
 - **[Recent Works]**
 - **[About me]**
+- **[Contact Form]**
 
 In this project best coding practices is use
 
@@ -154,15 +155,24 @@ Your working browser.
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ghulam Reza Merzaie**
+👤 **Reza Merzaie**
+👤 **Glauber Bannwart**
+👤 **Roshdy**
 
 - GitHub: [@githubhandle](https://github.com/Gh-Reza)
 - Twitter: [@twitterhandle](https://twitter.com/RezaMerzaie)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/reza-merzaie-b94368202/)
 
+- GitHub: [@githubhandle](https://github.com/Glauber)
+- Twitter: [@twitterhandle](https://twitter.com/Glauber)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/Glauber/)
+
+- GitHub: [@githubhandle](https://github.com/Roshdy)
+- Twitter: [@twitterhandle](https://twitter.com/Roshdy)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/roshdy/)
+
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Contact form]**
 - [ ] **[Desktop version]**
 - [ ] **[Resposive version]**
 
@@ -188,6 +198,6 @@ I would like to thank Microverse.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
