@@ -14,6 +14,7 @@ body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
+  width: 375px;
   margin: 0 auto;
 }
 
@@ -105,10 +106,7 @@ body {
   font-size: 4rem;
   columns: #1c1a19;
   padding-bottom: 3.2rem;
-}
-
-.line {
-  border: 0.2px solid black;
+  border-bottom: solid 1px #212121;
 }
 
 .multi-post-card {
