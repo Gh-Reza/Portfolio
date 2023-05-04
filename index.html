@@ -11,75 +11,83 @@
   <title>Portfolio</title>
 </head>
 <body>
+  <!-- Header section -->
   <header class="section-header">
-    <div class="header-container gen-margin flex">
+    <nav class="header-container gen-margin flex">
       <a href="#" class="logo-box">
         <img class="logo" src="img/logo.png" alt="logo">
       </a>
-      <nav>
-        <a href="#" class="menu-box">
-          <img class="menu-icon" src="img/menu.png" alt="menu icon">
-        </a>
-      </nav>
-    </div>
+      <a href="#" class="menu-box">
+        <img class="menu-icon" src="img/menu.png" alt="menu icon">
+      </a>
+    </nav>
   </header>
+  <!-- Headline section -->
   <section class="section-headline gen-padding">
     <div class="headline-container flex gen-margin">
-      <h1 class="headline-primary primary-font">
-        Hey There. I’m Reza.
-      </h1>
-      <h2 class="headline-support">
-        I'm a Software Developer
-      </h2>
-      <p class="headline-description">
-      I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-don’t hesitate to contact me.
-    </p>
-    <ul class="social-box flex">
-      <li>
-        <a href="#">
-          <img src="img/github.svg" alt="github icon">
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="img/in.svg" alt="in icon">
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="img/Vector.svg" alt="vector icon">
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="img/twitter.svg" alt="twitter icon">
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="img/m.svg" alt="m icon">
-        </a>
-      </li>
-    </ul>
-  </div>
+      <div class="empty-box"></div> <!-- For creating empty space -->
+      <div class="headline-text-box">
+        <h1 class="headline-primary primary-font">
+          Hey There.<br> I’m Reza.
+        </h1>
+        <h2 class="headline-support">
+          I'm a Software Developer
+        </h2>
+        <p class="headline-description">
+          I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+          don’t hesitate to contact me.
+        </p>
+      </div>
+      <ul class="social-box flex">
+        <li>
+          <a href="#">
+            <img src="img/github.svg" alt="github icon">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/in.svg" alt="in icon">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/Vector.svg" alt="vector icon">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/twitter.svg" alt="twitter icon">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/m.svg" alt="m icon">
+          </a>
+        </li>
+      </ul>
+    </div>
   </section>
   <section class="section-work gen-padding">
     <div class="work-container grid gen-margin">
       <h2 class="work-header-box primary-font">My Recent Works</h2>
+      <div class="line"></div> <!-- Line -->
       <div class="multi-post-card flex">
-        <img src="img/multi.png" alt="Multi-Post illistration" class="multi-post-header-img">
-        <h3 class="multi-post-primary primary-font">Multi-Post Stories</h3>
-        <p class="multi-post-description">
-          A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="tags-box flex">
-          <li><a href="#">CSS</a></li>
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">Bootstrap</a></li>
-          <li><a href="#">Ruby</a></li>
-        </ul>
-        <a href="#" class="action-btn">See project</a>
+        <div class="card-img-box">
+          <img src="img/multi.png" alt="Multi-Post illistration" class="multi-post-header-img">
+          <h3 class="multi-post-primary primary-font">Multi-Post Stories</h3>
+        </div>
+        <div class="card text-box">
+          <p class="multi-post-description">
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+          </p>
+          <ul class="tags-box flex">
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Bootstrap</a></li>
+            <li><a href="#">Ruby</a></li>
+          </ul>
+          <a href="#" class="action-btn">See project</a>
+        </div>
       </div>
       <div class="prof-art-card flex">
         <h3 class="prof-art-primary primary-font">Profesional Art Printing Data</h3>
@@ -146,9 +154,12 @@ don’t hesitate to contact me.
   <section class="section-about-me gen-padding">
     <div class="about-me-container gen-margin">
       <div class="about-me-summary-box flex">
-        <h2 class="about-me-primary primary-font">About me</h2>
-        <p class="about-me-description">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-        <a href="#" class="action-btn">Get my resume</a>
+        <div class="about-text-box">
+          <h2 class="about-me-primary primary-font">About me</h2>
+          <p class="about-me-description">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+          <a href="#" class="action-btn">Get my resume</a>
+        </div>
+        <div class="empty-box"></div> <!-- For creating empty space -->
       </div>
       <div class="skills-box flex">
         <div class="skills-title-box flex">
