@@ -177,6 +177,7 @@ body {
   color: #fff;
   text-align: center;
   margin-top: 1.2rem;
+  transition: 0.4s;
 }
 
 .action-btn:hover {
@@ -191,14 +192,22 @@ body {
 }
 
 .card {
+  flex-direction: column;
   height: 38rem;
-  position: relative;
+  background-image: url("img/card2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
   flex-direction: column;
   justify-content: flex-end;
   gap: 1.2rem;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("img/card4.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+  transition: 0.4s;
 }
 
 .card-primary {
@@ -469,44 +478,40 @@ textarea.form-input::placeholder {
     flex-direction: row;
   }
 
+  .card {
+    overflow: hidden;
+  }
+
   .card-img-box {
     width: 60%;
   }
 
   .card__1 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(img/card1.png);
+    background-image: url(img/card4.svg);
   }
 
   .card__2 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(img/card2.png);
+    background-image: url(img/card2.svg);
   }
 
   .card__3 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(img/card3.png);
+    background-image: url(img/card3.svg);
   }
 
   .card__4 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(img/card4.png);
+    background-image: url(img/card4.svg);
   }
 
   .card__5 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(img/card5.png);
+    background-image: url(img/card5.svg);
   }
 
   .card__6 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(img/card6.png);
+    background-image: url(img/card6.svg);
   }
 
   .card .action-btn {
-    display: none;
-  }
-
-  .card__1 .action-btn {
-    display: block;
-  }
-
-  .card__1 .tags-box {
-    display: none;
+    margin-bottom: -6.8rem;
   }
 
   .card-mobile-content {
@@ -517,6 +522,19 @@ textarea.form-input::placeholder {
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
+  }
+
+  .card:hover .card-container {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  }
+
+  .card:hover *:not(:last-child) {
+    opacity: 0;
+  }
+
+  .card:hover .action-btn {
+    margin-bottom: 0;
+    opacity: 1;
   }
 
   .section-about-me {
