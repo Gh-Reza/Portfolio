@@ -166,6 +166,7 @@ body {
   width: 55px;
   padding: 10px 12px 10px 12px;
   border: 1px solid #8993a4;
+  transition: 0.4s;
 }
 
 .action-btn {
@@ -578,4 +579,11 @@ textarea.form-input::placeholder {
   .bottom-line {
     display: none;
   }
+}
+
+/* Transition of Tags */
+
+.tags-box a:hover {
+  background: orange;
+  color: black;
 }
