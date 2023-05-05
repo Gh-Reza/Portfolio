@@ -415,11 +415,17 @@ textarea.form-input::placeholder {
     gap: 3.2rem;
   }
 
+
   .menu a {
     font-family: "Inter", sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
     color: #fff;
+    transition: 0.5s ease-in;
+  }
+
+  .menu a:hover{
+    font-size:1.9rem ;
   }
 
   .section-headline {
