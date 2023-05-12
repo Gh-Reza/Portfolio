@@ -66,6 +66,7 @@ body {
   background: #1c1a19 url(img/illustration.png);
   background-repeat: no-repeat;
   background-position: 100% 120%;
+  height: 95vh;
 }
 
 .headline-primary {
