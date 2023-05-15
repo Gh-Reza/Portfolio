@@ -4,7 +4,7 @@ const close = document.createElement('li');
 close.className = 'close';
 const closeIcon = document.createElement('img');
 closeIcon.className = 'close-icon';
-closeIcon.src = './img/close.svg'
+closeIcon.src = './img/close.svg';
 close.append(closeIcon);
 const menuItem = document.querySelectorAll('.menu-item');
 
@@ -17,10 +17,8 @@ close.addEventListener('click', () => {
   menu.classList.remove('menu-mobile');
 });
 
-menuItem.forEach(element => { 
+menuItem.forEach((element) => {
   element.addEventListener('click', () => {
     menu.classList.remove('menu-mobile');
   });
 });
-
-
