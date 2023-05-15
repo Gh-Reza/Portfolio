@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1;
   font-weight: 400;
   margin: 0 auto;
@@ -23,11 +23,11 @@ body {
 }
 
 .gen-padding {
-  padding: 12rem  0;
+  padding: 12rem 0;
 }
 
 .primary-font {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-weight: 400;
   letter-spacing: 0.37px;
 }
@@ -56,6 +56,39 @@ body {
   display: none;
 }
 
+.menu-mobile {
+  display: block;
+  width: 100%;
+  height: 95vh;
+  background-color: #3c3a39;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 2.4rem;
+  padding-top: 4.8rem;
+}
+
+.menu-mobile a {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #fff5e1;
+  padding: 1.2rem;
+  border-bottom: solid 1px #6f6c6b;
+  margin-top: 1.2rem;
+}
+
+.close {
+  position: absolute;
+  right: 2.4rem;
+  top: 2.4rem;
+}
+
+.menu-mobile .mail {
+  display: none;
+}
+
 .headline-container {
   flex-direction: column;
   justify-content: space-around;
@@ -76,7 +109,7 @@ body {
 }
 
 .headline-support {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 3.2rem;
@@ -332,7 +365,7 @@ body {
 }
 
 .contact-form-primary {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   color: #172b4d;
   font-size: 3.2rem;
