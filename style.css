@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1;
   font-weight: 400;
   margin: 0 auto;
@@ -56,24 +56,16 @@ body {
   display: none;
 }
 
-.menu-mobile-container {
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  left: 0;
-  top: 0;
-  background-color: #fff;
-}
-
 .menu-mobile {
   display: block;
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   background-color: #3c3a39;
   position: fixed;
   left: 0;
   top: 0;
   padding: 2.4rem;
+  padding-top: 4.8rem;
 }
 
 .menu-mobile a {
@@ -87,7 +79,13 @@ body {
   margin-top: 1.2rem;
 }
 
-.menu-mobile li:last-child {
+.close {
+  position: absolute;
+  right: 2.4rem;
+  top: 2.4rem;
+}
+
+.menu-mobile .mail {
   display: none;
 }
 
@@ -242,11 +240,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   gap: 1.2rem;
-  background: linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 61.94%
-  );
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
   transition: 0.4s;
 }
 
