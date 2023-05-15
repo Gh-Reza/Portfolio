@@ -38,6 +38,7 @@
 - HTML5
 - CSS3
 - Git version control
+- Javascript
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -46,6 +47,7 @@
   <ul>
     <li><a href="https://www.microverse.org/">HTML5</a></li>
     <li><a href="https://www.microverse.org/">CSS3</a></li>
+    <li><a href="https://www.microverse.org/">Javascript</a></li>
   </ul>
 </details>
 
@@ -64,6 +66,7 @@
 - **[About me]**
 - **[Contact Form]**
 - **[Responsive]**
+- **[Mobile menu]**
 
 In this project best coding practices is use
 
@@ -159,6 +162,7 @@ Your working browser.
 👤 **Reza Merzaie**
 👤 **Glauber Bannwart**
 👤 **Roshdy**
+👤 **Pablo**
 
 - GitHub: [@githubhandle](https://github.com/Gh-Reza)
 - Twitter: [@twitterhandle](https://twitter.com/RezaMerzaie)
@@ -171,6 +175,10 @@ Your working browser.
 - GitHub: [@githubhandle](https://github.com/Roshdy)
 - Twitter: [@twitterhandle](https://twitter.com/Roshdy)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/roshdy/)
+
+- GitHub: [@githubhandle](https://github.com/Pablo)
+- Twitter: [@twitterhandle](https://twitter.com/Pablo)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/Pablo/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
