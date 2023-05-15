@@ -23,11 +23,11 @@ body {
 }
 
 .gen-padding {
-  padding: 12rem  0;
+  padding: 12rem 0;
 }
 
 .primary-font {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-weight: 400;
   letter-spacing: 0.37px;
 }
@@ -111,7 +111,7 @@ body {
 }
 
 .headline-support {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 3.2rem;
@@ -242,7 +242,11 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   gap: 1.2rem;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+  background: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  );
   transition: 0.4s;
 }
 
@@ -367,7 +371,7 @@ body {
 }
 
 .contact-form-primary {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   color: #172b4d;
   font-size: 3.2rem;
