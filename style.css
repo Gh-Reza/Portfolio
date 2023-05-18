@@ -240,7 +240,12 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   gap: 1.2rem;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    );
   transition: 0.4s;
 }
 
@@ -428,6 +433,80 @@ textarea.form-input::placeholder {
   width: 13.4rem;
 }
 
+.open-modal {
+  width: 91%;
+  background-color: #fff;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.6rem;
+  padding-bottom: 2.4rem;
+  margin: auto;
+  z-index: 5;
+  box-shadow: 0 0 20px rgb(84, 84, 84);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 0;
+}
+
+.modal-header h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.open-modal .tags-box {
+  margin-top: 4.8rem;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin-top: 2.4rem;
+}
+
+.modal-content .card-img-box {
+  height: 22rem;
+  overflow: hidden;
+}
+
+.modal-content .card-img-box img {
+  width: 100%;
+}
+
+.modal-btn-container {
+  display: flex;
+  gap: 3.6rem;
+}
+
+.modal-btn-container .action-btn {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.blur {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+}
+
+.longDesc {
+  display: none;
+}
+
+.shortDesc {
+  display: block;
+}
+
 /* =========================== */
 
 /* ===== End of mobile======== */
@@ -611,5 +690,43 @@ textarea.form-input::placeholder {
 
   .bottom-line {
     display: none;
+  }
+
+  .open-modal {
+    padding: 2.4rem;
+    width: 80%;
+  }
+
+  .modal-container {
+    max-height: 90vh;
+  }
+
+  .modal-container .tags-box {
+    margin-top: 1.2rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .modal-content {
+    flex-direction: row;
+  }
+
+  .modal-content .card-img-box {
+    width: 55%;
+    height: 60vh;
+  }
+
+  .card-text-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .shortDesc {
+    display: none;
+  }
+
+  .longDesc {
+    display: block;
   }
 }
