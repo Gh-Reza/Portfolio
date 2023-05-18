@@ -507,6 +507,14 @@ textarea.form-input::placeholder {
   display: block;
 }
 
+.error-message {
+  display: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  color: red;
+  margin-top: 1.6rem;
+}
+
 /* =========================== */
 
 /* ===== End of mobile======== */
