@@ -43,10 +43,10 @@ submitForm.addEventListener('submit', (event) => {
   const emailLower = emailInput.toLowerCase();
   const errorMessage = document.querySelector('.error-message');
 
-  if(emailInput!==emailLower) {
+  if (emailInput !== emailLower) {
     event.preventDefault();
     errorMessage.style.display = 'block';
-  }else {
+  } else {
     errorMessage.style.display = 'none';
   }
 });
