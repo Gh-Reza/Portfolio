@@ -30,6 +30,7 @@ seeProject.forEach((element, index) => {
     const closeBtn = document.querySelector('.close-btn');
     closeBtn.addEventListener('click', () => {
       modalContainer.classList.remove('open-modal');
+      modalContainer.innerHTML = '';
       modalBlur.classList.remove('blur');
     });
   });

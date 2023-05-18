@@ -701,6 +701,11 @@ textarea.form-input::placeholder {
     max-height: 90vh;
   }
 
+  .modal-container .tags-box {
+    margin-top: 1.2rem;
+    margin-bottom: 4.8rem;
+  }
+
   .modal-content {
     flex-direction: row;
   }
