@@ -17,20 +17,17 @@ const templete1 = (data, i) => `
       ${data.mobileDescription}
       </p>
       <ul class="tags-box flex">
-        <li><a href="#">${data.tech_1}</a></li>
-        <li><a href="#">${data.tech_2}</a></li>
-        <li><a href="#">${data.tech_3}</a></li>
-        <li><a href="#">${data.tech_4}</a></li>
+      ${data.tech}
       </ul>
       <a
         href="https://github.com/Gh-Reza/Portfolio-mobile-version"
-        class="action-btn" 
+        class="action-btn popup" 
         content-id="${i}" 
         >See project</a
       >
     </div>
   </div>
-`
+`;
 
 const templete2 = (data, i) => `
 <div class="card card__${i} flex">
@@ -52,22 +49,57 @@ const templete2 = (data, i) => `
     </p>
   </div>
   <ul class="tags-box flex">
-    <li><a href="#">${data.tech_1}</a></li>
-    <li><a href="#">${data.tech_2}</a></li>
-    <li><a href="#">${data.tech_3}</a></li>
+  ${data.tech}
   </ul>
   <a
     href="https://github.com/Gh-Reza/Portfolio-mobile-version"
-    class="action-btn" 
+    class="action-btn popup" 
     content-id="${i}" 
     >See project</a
   >
 </div>
 </div>
-`
+`;
 
 const modal = (data) => `
-  
+  <div class="modal-header">
+  <h2 class="modal-heading">${data.cardDeskTitle}</h2>
+  <img class="close-btn" src="./img/close.svg" alt="Close">
+  </div>
+  <ul class="tags-box flex">
+    ${data.tech}
+  </ul>
+  <div class="modal-content">
+  <div class="card-img-box">
+    <img
+      src="${data.imgPath}"
+      alt="card image"
+      class="multi-post-header-img"
+    />
+  </div>
+  <div class="card-text-container">
+    <div class="card-text-box">
+      <p class="multi-post-description longDesc">
+        ${data.longDescription}
+      </p>
+      <p class="multi-post-description shortDesc">
+        ${data.description}
+      </p>
+    </div>
+    <div class="modal-btn-container">
+      <a
+      href="https://github.com/Gh-Reza/Portfolio-mobile-version"
+      class="action-btn" 
+      >See live <img src="img/live.png" alt="Live demo"></a
+      >
+      <a
+      href="https://github.com/Gh-Reza/Portfolio-mobile-version"
+      class="action-btn" 
+      >See source <img src="img/github.svg" alt=""></a
+      >
+    </div>
+  </div>
+  </div>
 `
 
-export { templete1, templete2 };
+export { templete1, templete2 , modal };
