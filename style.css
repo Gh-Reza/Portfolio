@@ -240,7 +240,11 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   gap: 1.2rem;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+  background: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  );
   transition: 0.4s;
 }
 
@@ -685,5 +689,38 @@ textarea.form-input::placeholder {
 
   .bottom-line {
     display: none;
+  }
+
+  .open-modal {
+    padding: 2.4rem;
+    width: 80%;
+  }
+
+  .modal-container {
+    max-height: 90vh;
+  }
+
+  .modal-content {
+    flex-direction: row;
+  }
+
+  .modal-content .card-img-box {
+    width: 55%;
+    height: 60vh;
+  }
+
+  .card-text-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .shortDesc {
+    display: none;
+  }
+
+  .longDesc {
+    display: block;
   }
 }
