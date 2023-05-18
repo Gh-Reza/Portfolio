@@ -100,6 +100,6 @@ const modal = (data) => `
     </div>
   </div>
   </div>
-`
+`;
 
-export { templete1, templete2 , modal };
+export { templete1, templete2, modal };

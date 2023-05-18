@@ -7,7 +7,7 @@ mobileMenu();
 const workContainer = document.querySelector('.work-container');
 
 cardInfo.forEach((data, i) => {
-  if (i ===  0) {
+  if (i === 0) {
     workContainer.innerHTML += templete1(data, i);
   } else {
     workContainer.innerHTML += templete2(data, i);
@@ -34,4 +34,3 @@ seeProject.forEach((element, index) => {
     });
   });
 });
-
