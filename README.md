@@ -70,7 +70,8 @@
 
 In this project best coding practices is use
 
-## 🚀 Live Demo <a href="https://gh-reza.github.io/Portfolio-mobile-version/" name="live-demo">Click</a>
+## 🚀 Live Demo 
+For visiting the live demo click <a href="https://gh-reza.github.io/Portfolio-mobile-version/" name="live-demo">here</a>.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
