@@ -35,3 +35,18 @@ seeProject.forEach((element, index) => {
     });
   });
 });
+
+const submitForm = document.querySelector('.contact-form');
+
+submitForm.addEventListener('submit', (event) => {
+  const emailInput = document.querySelector('.contact-form input[type=email]').value;
+  const emailLower = emailInput.toLowerCase();
+  const errorMessage = document.querySelector('.error-message');
+
+  if (emailInput !== emailLower) {
+    event.preventDefault();
+    errorMessage.style.display = 'block';
+  } else {
+    errorMessage.style.display = 'none';
+  }
+});
