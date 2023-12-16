@@ -161,25 +161,10 @@ Your working browser.
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Reza Merzaie**
-👤 **Glauber Bannwart**
-👤 **Roshdy**
-👤 **Pablo**
 
 - GitHub: [@githubhandle](https://github.com/Gh-Reza)
 - Twitter: [@twitterhandle](https://twitter.com/RezaMerzaie)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/reza-merzaie-b94368202/)
-
-- GitHub: [@githubhandle](https://github.com/Glauber)
-- Twitter: [@twitterhandle](https://twitter.com/Glauber)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/Glauber/)
-
-- GitHub: [@githubhandle](https://github.com/Roshdy)
-- Twitter: [@twitterhandle](https://twitter.com/Roshdy)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/roshdy/)
-
-- GitHub: [@githubhandle](https://github.com/Pablo)
-- Twitter: [@twitterhandle](https://twitter.com/Pablo)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/Pablo/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
