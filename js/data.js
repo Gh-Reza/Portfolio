@@ -88,7 +88,7 @@ const cardInfo = [
     imgPath: 'img/CarRenting.png',
     cardMobileTitle: 'Car Rental',
     mobileDescription: `Explore the joy of test-driving with our user-friendly car rental website. Effortlessly book the latest models online and elevate your driving experience. Your dream ride is just a click away!"`,
-    cardDeskTitle: 'Website Portfolio',
+    cardDeskTitle: 'Car Rental',
     deskDescription: `Explore the joy of test-driving with our user-friendly car rental website. Effortlessly book the latest models online and elevate your driving experience. Your dream ride is just a click away!"`,
     description:
       'Explore the joy of test-driving with our user-friendly car rental website. Effortlessly book the latest models online and elevate your driving experience. Your dream ride is just a click away!',
