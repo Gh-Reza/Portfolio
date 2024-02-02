@@ -88,12 +88,12 @@ const modal = (data) => `
     </div>
     <div class="modal-btn-container">
       <a
-      href="https://github.com/Gh-Reza/Portfolio-mobile-version"
+      href=${data.liveLink}
       class="action-btn" 
       >See live <img src="img/live.png" alt="Live demo"></a
       >
       <a
-      href="https://github.com/Gh-Reza/Portfolio-mobile-version"
+      href=${data.sourceLink}
       class="action-btn" 
       >See source <img src="img/github.svg" alt=""></a
       >
