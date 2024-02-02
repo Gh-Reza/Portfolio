@@ -83,6 +83,21 @@ const cardInfo = [
     liveLink: 'https://mybudget-c56c.onrender.com/',
     sourceLink: 'https://github.com/Gh-Reza/Budget-app/',
   },
+  {
+    id: '6',
+    imgPath: 'img/CarRenting.png',
+    cardMobileTitle: 'Car Rental',
+    mobileDescription: `Explore the joy of test-driving with our user-friendly car rental website. Effortlessly book the latest models online and elevate your driving experience. Your dream ride is just a click away!"`,
+    cardDeskTitle: 'Website Portfolio',
+    deskDescription: `Explore the joy of test-driving with our user-friendly car rental website. Effortlessly book the latest models online and elevate your driving experience. Your dream ride is just a click away!"`,
+    description:
+      'Explore the joy of test-driving with our user-friendly car rental website. Effortlessly book the latest models online and elevate your driving experience. Your dream ride is just a click away!',
+    longDescription:
+      'Explore the joy of test-driving with our user-friendly car rental website. Effortlessly book the latest models online and elevate your driving experience. Your dream ride is just a click away!',
+    tech: '<li><a href="#">React</a></li><li><a href="#">Tailwind</a></li><li><a href="#">RoR</a></li>',
+    liveLink: 'https://vehicle-reservation-system.netlify.app/',
+    sourceLink: 'https://github.com/JavierAybar/Full_Stack_Capstone_Back_End',
+  },
 ];
 
 export default cardInfo;
