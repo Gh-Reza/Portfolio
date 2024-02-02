@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1;
   font-weight: 400;
   margin: 0 auto;
@@ -27,7 +27,7 @@ body {
 }
 
 .primary-font {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   letter-spacing: 0.37px;
 }
@@ -70,7 +70,7 @@ body {
 
 .menu-mobile a {
   display: block;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 3.2rem;
   color: #fff5e1;
@@ -109,7 +109,7 @@ body {
 }
 
 .headline-support {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 3.2rem;
@@ -228,7 +228,7 @@ body {
 .card {
   flex-direction: column;
   height: 38rem;
-  background-image: url("img/card2.svg");
+  background-image: url('img/card2.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -240,12 +240,11 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   gap: 1.2rem;
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    );
+  background: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  );
   transition: 0.4s;
 }
 
@@ -320,7 +319,7 @@ body {
 }
 
 .about-me-description {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
@@ -346,13 +345,13 @@ body {
 }
 
 .skills-title-box h4 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 3.2rem;
   line-height: 4.4rem;
 }
 
 .skill-item {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 2.2rem;
 }
 
@@ -370,7 +369,7 @@ body {
 }
 
 .contact-form-primary {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   color: #172b4d;
   font-size: 3.2rem;
@@ -390,7 +389,7 @@ body {
 }
 
 .form-input::placeholder {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
   color: #979493;
 }
@@ -509,7 +508,7 @@ textarea.form-input::placeholder {
 
 .error-message {
   display: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.6rem;
   color: red;
   margin-top: 1.6rem;
@@ -536,7 +535,7 @@ textarea.form-input::placeholder {
   }
 
   .menu a {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
     color: #fff;
@@ -608,23 +607,23 @@ textarea.form-input::placeholder {
   }
 
   .card__1 {
-    background-image: url(img/card4.svg);
+    background-image: url(img/SpaceTraveler.png);
   }
 
   .card__2 {
-    background-image: url(img/card2.svg);
+    background-image: url(img/BookStore.png);
   }
 
   .card__3 {
-    background-image: url(img/card3.svg);
+    background-image: url(img/TvMaz.png);
   }
 
   .card__4 {
-    background-image: url(img/card4.svg);
+    background-image: url(img/CTS.png);
   }
 
   .card__5 {
-    background-image: url(img/card5.svg);
+    background-image: url(img/MyBudget.png);
   }
 
   .card__6 {
