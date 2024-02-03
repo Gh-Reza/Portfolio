@@ -11,7 +11,7 @@ const cardInfo = [
     longDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.<br><br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     tech: '<li><a href="#">React</a></li><li><a href="#">Redux</a></li><li><a href="#">CSS</a></li>',
-    liveLink: 'https://github.com/Gh-Reza/weather-app',
+    liveLink: 'https://myweatherapp-zhqx.onrender.com/',
     sourceLink: 'https://github.com/Gh-Reza/weather-app',
   },
   {
